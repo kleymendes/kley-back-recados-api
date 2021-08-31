@@ -1,1 +1,1 @@
-export * from './scrap.controller';
+export * from './controller';

@@ -1,1 +1,1 @@
-export * from './scrap.repository';
+export * from './repository';

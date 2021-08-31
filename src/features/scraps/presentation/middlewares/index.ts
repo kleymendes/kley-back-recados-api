@@ -1,1 +1,1 @@
-export * from './scrap.middleware';
+export * from './middleware';
