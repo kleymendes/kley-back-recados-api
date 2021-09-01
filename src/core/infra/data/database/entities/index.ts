@@ -1,2 +1,2 @@
-export * from './scrap.entity';
-export * from './user.entity';
+export { ScrapEntity } from './scrap.entity';
+export { UserEntity } from './user.entity';
