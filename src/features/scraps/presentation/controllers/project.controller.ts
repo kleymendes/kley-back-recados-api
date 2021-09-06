@@ -3,7 +3,7 @@ import { notFound, ok, serverError } from '../../../../core/presentation';
 import { MVCController } from '../../../../core/presentation';
 import { CacheRepository, ScrapRepository } from '../../infra';
 
-export class ScrapController implements MVCController {
+export class ProjectController implements MVCController {
     readonly #repository: ScrapRepository;
     readonly #cache: CacheRepository;
 
