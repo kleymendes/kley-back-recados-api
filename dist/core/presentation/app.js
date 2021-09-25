@@ -67,6 +67,7 @@ class App {
         new user_routes_1.default().init(router);
         new scrap_routes_1.default().init(router);
     }
+    /**istanbul ignore next */
     start(port) {
         __classPrivateFieldGet(this, _App_express, "f").listen(port, () => {
             console.log('API rodando...');

@@ -9,7 +9,7 @@ const infra_2 = require("../../infra");
 const makeController = () => {
     const repository = new infra_1.ScrapRepository();
     const cache = new infra_2.CacheRepository();
-    return new controllers_1.ScrapController(repository, cache);
+    return new controllers_1.ProjectController(repository, cache);
 };
 class ScrapRoutes {
     init(routes) {
